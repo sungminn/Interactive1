@@ -1,0 +1,42 @@
+body {
+	font-family:'PT Sans', sans-serif;
+}
+
+h1 {
+	color:#1874CD;
+	text-align:center;
+}
+
+h3 {
+	color:#1874CD;
+	text-align:center;
+}
+
+h5 {
+	color:#1874CD;
+	text-align:center;	
+}
+
+#largeletter {
+	font-size:50px;
+	color: #1874CD;
+	text-align: center;
+}
+
+#scroll {
+	position: fixed;
+	margin-left: 1400px;
+}
+
+#centerimage {
+	text-align: center;
+}
+
+#rightimage {
+	float: left;
+	margin-left: 20px;
+}
+
+#button {
+	text-align:center;
+}

@@ -1,0 +1,124 @@
+body {background-color: black;
+}
+
+h1 {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+
+}
+
+h2 {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+}
+
+#colorfont {
+	color: 	#FFA07A;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size:50px;
+	
+}
+
+#centerimage {
+	text-align: center;
+	
+}
+
+#leftimage {
+	float: left;
+	margin-left: 100px;
+
+}
+
+#rightimage {
+	float: right;
+	margin-right: 100px;
+}
+
+#leftimage2 {
+	float: left;
+	margin-left:20px;
+}
+
+#rightimage2 {
+	float: right;
+	margin-right:20px;
+}
+
+#centerfloat {
+	float: left;
+	margin-left:150px;
+}
+
+#largeletter {
+	font-size:50px;
+	font-family: 'roboto', sans-serif;
+	color: #FF9912;
+	text-align: center;
+}
+
+#largeletter2 {
+	font-size: 100px;
+	font-family: 'roboto', sans-serif;
+	color:white;
+	text-align:center;
+}
+
+#centerlogo {
+	float:left;
+	margin-left:285px;
+}
+
+#leftlogo {
+	float: left;
+	margin-left:1px;
+}
+
+#rightlogo {
+	float: right;
+	margin-right:50px;
+}
+
+#buttonleft {
+	float: left;
+	margin-left:250px;
+}
+
+#buttonright {
+	float: right;
+	margin-right:250px;
+}
+
+
+#leftlogo2 {
+	float: left;
+	margin-left:250px;
+}
+
+#rightlogo2 {
+	float: right;
+	margin-right:220px;
+}
+
+
+
+
+
+
+
+

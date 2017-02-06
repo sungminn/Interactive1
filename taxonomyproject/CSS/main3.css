@@ -1,0 +1,42 @@
+body {
+font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+	color:black;
+	text-align:center;
+}
+
+h3 {
+	color:black;
+	text-align:center;
+}
+
+h5 {
+	color:black;
+	text-align:center;	
+}
+
+#largeletter {
+	font-size:50px;
+	color:black;
+	text-align: center;
+}
+
+#scroll {
+	position: fixed;
+	margin-left: 1400px;
+}
+
+#centerimage {
+	text-align: center;
+}
+
+#rightimage {
+	float: left;
+	margin-left: 20px;
+}
+
+#button {
+	text-align:center;
+}
