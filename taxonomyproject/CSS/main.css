@@ -1,7 +1,16 @@
 body {background-color: black;
 }
 
+#title {
+	 text-shadow: 0 0 3px #FFC125	;
+	 color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size:35px;
+}
+
 h1 {
+	
 	color: white;
 	font-family: 'roboto', sans-serif;
 	text-align: center;
@@ -62,18 +71,60 @@ p {
 
 #centerfloat {
 	float: left;
-	margin-left:150px;
+	margin-left:165px;
 }
 
 #largeletter {
 	font-size:50px;
 	font-family: 'roboto', sans-serif;
-	color: #FF9912;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter2 {
+	font-size:60px;
+	font-family: 'roboto', sans-serif;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter3 {
+	font-size:75px;
+	font-family: 'roboto', sans-serif;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter4 {
+	font-size:85px;
+	font-family: 'roboto', sans-serif;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter5 {
+	font-size:95px;
+	font-family: 'roboto', sans-serif;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter6 {
+	font-size:100px;
+	font-family: 'roboto', sans-serif;
+	color: #7FFFD4;
+	text-align: center;
+}
+
+#letter7 {
+	font-size:65px;
+	font-family: 'roboto', sans-serif;
+	color: #EEC900;
 	text-align: center;
 }
 
 #largeletter2 {
-	font-size: 100px;
+	font-size: 110px;
 	font-family: 'roboto', sans-serif;
 	color:white;
 	text-align:center;
@@ -116,8 +167,35 @@ p {
 }
 
 
+#leftletter {
+	font-size:80px;
+	font-family: 'roboto', sans-serif;
+	color: #FFA07A;
+	text-align: left;
+}
+
+#centerletter {
+	font-size:80px;
+	font-family: 'roboto', sans-serif;
+	color: #FFA07A;
+	text-align: center;
+}
+
+#rightletter {
+	font-size:80px;
+	font-family: 'roboto', sans-serif;
+	color: #FFA07A;
+	text-align: right;
+}
 
 
+#fixedpos {
+	position: fixed;
+	margin-left: 1400px;
+	color:white;
+	font-family: 'roboto', sans-serif;
+
+}
 
 
 

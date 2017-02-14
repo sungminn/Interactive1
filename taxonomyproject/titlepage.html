@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <link rel="stylesheet" type="text/css"
+  href="CSS/js.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>index</title>
+        <style type="text/css">
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: #000;
+               	text-shadow: 0 0 10px #FFC125	;
+            }
+            .fly-in-text {
+                list-style: none;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            .fly-in-text li {
+                display: inline-block;
+                margin-right: 25px;
+                font-family: Open Sans, Arial;
+                font-weight: 300;
+                font-size: 4em;
+                color: #fff;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+            .fly-in-text li:last-child {
+                margin-right: 0;
+            }
+            .fly-in-text.hidden li {
+                opacity: 0;
+            }
+            .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+            .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(6) { transform: translateX(100px) translateY(-20px); }
+            .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(8) { transform: translateX(10px) translateY(220px); }
+            .fly-in-text.hidden li:nth-child(9) { transform: translateX(-30px) translateY(-230px); }
+            .fly-in-text.hidden li:nth-child(10) { transform: translateX(10px) translateY(10px); }
+            .fly-in-text.hidden li:nth-child(11) { transform: translateX(250px) translateY(-120px); }
+            .fly-in-text.hidden li:nth-child(12) { transform: translateX(-100px) translateY(320px); }
+            .fly-in-text.hidden li:nth-child(13) { transform: translateX(70px) translateY(400px); }
+            .fly-in-text.hidden li:nth-child(14) { transform: translateX(55px) translateY(-250px); }
+            .fly-in-text.hidden li:nth-child(15) { transform: translateX(-30px) translateY(65px); }
+            .fly-in-text.hidden li:nth-child(16) { transform: translateX(300px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(17) { transform: translateX(450px) translateY(340px); }
+            .fly-in-text.hidden li:nth-child(18) { transform: translateX(330px) translateY(12px); }
+            .fly-in-text.hidden li:nth-child(19) { transform: translateX(-250px) translateY(420px); }
+             .fly-in-text.hidden li:nth-child(20) { transform: translateX(30px) translateY(200px); }
+        </style>
+    </head>
+    <body>
+
+        <ul class="fly-in-text hidden">
+            <li>E</li>
+            <li>X</li>
+            <li>P</li>
+            <li>L</li>
+            <li>O</li>
+            <li>R</li>
+            <li>I</li>
+            <li>N</li>
+            <li>G</li>
+            <li></li>
+            <li>S</li>
+            <li>C</li>
+            <li>R</li>
+            <li>O</li>
+            <li>L</li>
+            <li>L</li>
+            <li>B</li>
+            <li>A</li>
+            <li>R</li>
+            <li>S</li>
+        </ul>
+
+        <div id="button">
+        <form action="taxonomy.html">
+    	<input type="submit" value="CLICK TO CONTINUE" />
+		</form>
+		</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            $(function() {
+                
+                setTimeout(function() {
+                    $('.fly-in-text').removeClass('hidden');
+                }, 500);
+                
+            })();
+            
+        </script>
+
+    </body>
+</html>
