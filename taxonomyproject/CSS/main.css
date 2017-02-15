@@ -132,17 +132,17 @@ p {
 
 #centerlogo {
 	float:left;
-	margin-left:285px;
+	margin-left:180px;
 }
 
 #leftlogo {
 	float: left;
-	margin-left:1px;
+	margin-left:300px;
 }
 
 #rightlogo {
 	float: right;
-	margin-right:50px;
+	margin-right:300px;
 }
 
 #buttonleft {
