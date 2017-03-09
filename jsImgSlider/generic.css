@@ -1,0 +1,322 @@
+
+/* For generic page styles. Not for sliders. */
+
+body {background:#FFD700;
+    font-family: 'roboto', sans-serif;
+    margin:0; 
+    padding:0; 
+    padding-bottom:60px;}
+
+h2 {display:inline;}
+.div1, .div2 {width:700px;margin:0 auto;}
+.div1 { margin-top:50px;
+        margin-bottom:60px;
+        text-align:center;
+        line-height:20px;}
+
+.div1 P {font-size:18px;}
+
+.div1 a, .div2 a {color:#07C; }
+.div1 a {margin:0 8px;}
+.div1 a.current {color:black; text-decoration:none;}
+
+.div2 {margin-top:70px;}
+.div2 li {padding-top:6px;padding-bottom:6px;}
+
+.green {color:Green;}
+
+.cn {font-family: "Courier New", Georgia;}
+
+#status {display:inline-block; margin-left:26px;line-height:50px;height:50px;vertical-align:middle;}
+
+.code
+{
+    border: dashed 1px #BCBCCB; 
+    padding:8px 12px; 
+    background-color: #F3F3F9; 
+    white-space:pre; 
+    font-family:"Courier New", Georgia;
+    font-size:12px; 
+    margin:6px 0;
+    overflow:auto; 
+}
+body {  
+    font-family: 'roboto', sans-serif;
+    background-color: #FFD700;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    margin-top:-450px;
+}
+
+#emoticon{
+text-align: center;
+}
+
+#phone {
+    text-align: center;
+}
+
+
+#diagram {
+    width: 800px;
+    margin: 150px auto 0px;
+    height: calc(100vh - 150px);
+}
+
+#diagram img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+    margin-top:-75px;
+
+    /* apply animations to elements */
+
+    animation-name: rotateInDownLeft;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
+#katalk00 { 
+position: absolute;
+margin-top:-1000px; 
+}
+
+#katalk00 {
+    animation-delay: 250ms; 
+}
+
+#katalk1 {
+    animation-delay: 500ms; 
+}
+
+#katalk2 {
+    animation-delay: 750ms; 
+}
+
+#katalk3 {
+    animation-delay: 1000ms;    
+}
+
+#katalk4 {
+    animation-delay: 1250ms;    
+}
+
+#katalk5 {
+    animation-delay: 1500ms;    
+}
+
+#actions {
+    animation-delay:1750ms;
+}
+
+#con1 {
+    animation-delay: 2000ms;   
+}
+
+#con2 {
+    animation-delay: 2250ms;   
+}
+
+#con3 {
+    animation-delay: 2500ms;
+}
+
+#shake {
+    width: 800px;
+    margin: 150px auto 0px;
+    height: calc(100vh - 150px);
+    position: relative;
+    margin-top: 100px;
+}
+
+#shake img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+
+    /* apply animations to elements */
+
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
+#action {
+    width: 800px;
+    margin: 150px auto 0px;
+    height: calc(100vh - 150px);
+    position: relative;
+    margin-top: 100px;
+}
+
+#action img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+    /* apply animations to elements */
+
+    animation-name: rollIn;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
+#action2 {
+    width: 800px;
+    margin: 150px auto 0px;
+    height: calc(100vh - 150px);
+    position: relative;
+    margin-top: 100px;
+}
+
+#action3 img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+
+    /* apply animations to elements */
+
+    animation-name: flipInX;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
+#action3 img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+
+    /* apply animations to elements */
+
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
+
+.wifi1:hover {
+  
+    transform: scale(10.2);
+
+}
+.wifi1 {
+text-align: center;
+
+ }
+
+
+
+div:hover > #emotic11{ 
+    opacity:0;
+}
+
+div:hover > #emotic22{
+    opacity:1;
+}
+
+
+ #words{
+position:relative;
+text-align:center;
+}
+
+.emotic:hover {
+    opacity: 1
+
+}
+
+#emotic11 {
+    width: 150px;
+    height: auto;
+    top:-100px;
+    margin-left:1100px;
+    opacity:1;
+}
+
+#emotic22 {
+    width: 200px;
+    height: auto;
+    margin-top: 0px;
+    margin-left:-210px;
+    opacity:0;
+}
+
+div:hover > #emotic11{ 
+    opacity:0;
+}
+
+div:hover > #emotic22{
+    opacity:1;
+}
+
+
+#ryan {
+    vertical-align: middle;
+    margin-top: 1200px;
+    margin-left:200px;
+}
+
+#centerimage {
+    margin-top:550px;
+    text-align: center;
+}
+
+#imageset {
+    text-align: center;
+    margin-left:10px;
+}
+
+#imageset2 {
+    text-align: center;
+    height:20px;
+    margin-top: 700px;
+}
+
+@keyframes fadein {
+    0% {
+        opacity:0;
+        transform: translateY(40px);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    95% {
+        opacity:1;
+        transform: translateY(0px);     
+    }
+
+    100% {
+        opacity:0;
+        transform: translateY(20px);        
+    }
+
+}
+

@@ -1,0 +1,141 @@
+body {	
+	font-family: 'roboto', sans-serif;
+	background-color: #FFD700;
+}
+
+
+h2 {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+}
+
+#emoticon{
+text-align: center;
+
+}
+
+#phone {
+	text-align: center;
+}
+
+
+#diagram {
+	width: 800px;
+	margin: 150px auto 0px;
+	height: calc(100vh - 150px);
+}
+
+#diagram img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	margin-top:-300px;
+
+	/* apply animations to elements */
+
+	animation-name: flipInX;
+	animation-duration: 7s;
+	animation-iteration-count:infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 1;
+}
+
+#background {
+	width: 1300px;
+	margin: 150px auto 0px;
+	height: calc(100vh - 150px);
+	position: relative;
+}
+
+#background img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+
+	/* apply animations to elements */
+
+	animation-name: fadeIn	;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 1;
+
+}
+
+#katalk00 {
+	animation-delay: 500ms;	
+}
+
+#katalk1 {
+	animation-delay: 750ms;	
+}
+
+#katalk2 {
+	animation-delay: 100ms;	
+}
+
+#katalk3 {
+	animation-delay: 1250ms;	
+}
+
+#katalk4 {
+	animation-delay: 1500ms;	
+}
+
+#katalk5 {
+	animation-delay: 1750ms;	
+}
+
+
+#katalkB1 {
+	animation-delay: 75ms;
+	position: absolute;	
+}
+
+#katalkB2 {
+	border: 1px solid blue;
+	animation-delay: 250ms;
+
+}
+
+#katalkB3 {
+	border: 1px solid blue;
+	animation-delay: 250ms;
+
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+}
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
