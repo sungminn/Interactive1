@@ -1,0 +1,16 @@
+.transform {
+       transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.gradient {
+  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
+  color: white;
+}
+
+.flip {
+	transform: skewY(30deg);
+}
+
+.shadow {
+	text-shadow: 0 0 3px #FF0000;
+}
