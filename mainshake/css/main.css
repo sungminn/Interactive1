@@ -62,7 +62,7 @@ body {
 /* time screen */
 
 #time {
-	background-image: url(../testcopy.png);
+	background-image: url(../main2.jpg);
 	background-size:cover;
 	background-position: center;
 	color: white;
@@ -71,7 +71,7 @@ body {
 
 /* you can style these links */
 #union-link{
-	margin-top:105px;
+	margin-top:90px;
 	cursor: pointer;
 }
 
