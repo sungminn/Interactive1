@@ -9,7 +9,7 @@ a {
 }
 
 body {
-	background: red;
+	background: black;
 	color: white;
 	position: relative;
 
@@ -62,7 +62,7 @@ body {
 /* time screen */
 
 #time {
-	background-image: url(../main2.jpg);
+	background-image: url(../testcopy.jpg);
 	background-size:cover;
 	background-position: center;
 	color: white;
