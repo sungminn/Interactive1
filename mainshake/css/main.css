@@ -97,7 +97,7 @@ body {
 	pointer-events: none;
     
 	/* position background image */
-    background: url(../union.jpg);
+    background: url(../inside1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -109,7 +109,7 @@ body {
 /* pier screen */
 
 #pier {
-	background: url(../fisher.jpg);
+	background: url(../inside2.jpg);
     background-size: cover;
     background-position: center;
 
@@ -125,7 +125,7 @@ body {
 /* goldengate screen */
 
 #goldengate {
-	background: url(../golden.jpg);
+	background: url(../inside3.jpg);
     background-size: cover;
     background-position: center;	
 
