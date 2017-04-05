@@ -1,0 +1,136 @@
+a {
+	text-decoration: none;
+}
+
+/* reset padding and margin */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(../main.jpg);
+	background-size: cover;
+	background-position: center;
+
+	font-family: 'Anton', sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 22px;
+
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+/* all the screens have the class screen */
+
+.screen {
+	/* make this equal to the size of the window */
+	width: 100vw;
+	height: 100vh;
+
+	/* position this on top of screen1 */
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+
+/* loading screen */
+
+#loading {
+	background-image: url(../flashpage.jpg);
+	background-size: cover;
+	background-position: center;
+	
+
+	/* make sure this is on the very top */
+	z-index: 1000;
+
+	/* make sure you can't click on it */
+	pointer-events: none;
+
+	/* call the fade out animation */
+	animation: fadeOut 2s 1;
+	opacity: 0;
+}
+
+/* animation to fade out page */
+@keyframes fadeOut {
+	0%   { opacity: 1; }
+	50% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+/* time screen */
+
+#time {
+	background-image: url(../timemain.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/* you can style these links */
+#morning-link {
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+/* morning screen */
+
+#morning {
+	background: yellow;
+	color: black;
+
+	/* hide the element by default */
+	opacity: 0;
+
+	/* prevent clicking while hidden */
+	pointer-events: none;
+    
+	/* position background image */
+    background: url(../map-1.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* noon screen */
+
+#noon {
+	background: pink;
+	color: black;
+
+	/* hide the element by default */
+	opacity: 0;
+
+	/* prevent clicking while hidden */
+	pointer-events: none;
+
+}
+
+/* hiding and showing screens */
+
+
+/* add this class to body on shake */
+body.show-morning #morning {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+/* add this class to body on shake */
+body.show-noon #noon {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}

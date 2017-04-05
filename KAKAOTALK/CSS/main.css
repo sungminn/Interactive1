@@ -1,30 +1,73 @@
 body {	
-	font-family: 'roboto', sans-serif;
+	font-family: 'Baloo Bhaina', cursive;
 	background-color: #FFD700;
 }
 
-
-h2 {
+#subhead{
 	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
+	font-family: 'Baloo Bhaina', cursive;
+	margin-left: 1320px;
+	font-size:20px;
 }
-
-h4 {
+#title {
 	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
+	font-family: 'Baloo Bhaina', cursive;
+	text-align: left;
+	font-size:70px;
+	top:150px;
+	left:250px;
+	position:absolute;
+
 }
 
-#emoticon{
-text-align: center;
-
+#title2 {
+	color: white;
+	font-family: 'Baloo Bhaina', cursive;
+	text-align: left;
+	font-size:70px;
+	top:200px;
+	left:250px;
+	position:absolute;
 }
 
-#phone {
-	text-align: center;
+#title3 {
+	color: black;
+	font-family: 'Baloo Bhaina', cursive;
+	text-align: left;
+	font-size:70px;
+	top:280px;
+	left:250px;
+	position:absolute;
 }
 
+#title4 {
+	color: black	;
+	font-family: 'Baloo Bhaina', cursive;
+	text-align: left;
+	font-size:70px;
+	top:330px;
+	left:250px;
+	position:absolute;
+}
+
+#p1 {
+	top:220px;
+	width:500px;
+	left:1150px;
+	position: absolute;
+}
+
+#p2 {
+	margin-top:20px;
+	width:120px;
+	margin-left: -138px;
+	position: absolute;
+}
+
+#whitecube {
+width:150px;
+margin-left: -8px;
+}
 
 #diagram {
 	width: 800px;
@@ -71,7 +114,7 @@ text-align: center;
 
 }
 
-#katalk00 {
+#p1 {
 	animation-delay: 500ms;	
 }
 
@@ -116,6 +159,30 @@ text-align: center;
 	left: 100px;
 	
 }
+
+#shake {
+    width: 800px;
+    margin: 150px auto 0px;
+    height: calc(100vh - 150px);
+    position: absolute;
+    top: -100px;
+}
+
+#shake img {
+    display: inline-block; 
+    vertical-align: middle; 
+    transform: scale(.8);
+
+    /* apply animations to elements */
+
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+
+    /* set opacity to 0 by default */
+    opacity: 1;
+}
+
 
 @keyframes fadein {
 	0% {
