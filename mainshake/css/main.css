@@ -1,0 +1,221 @@
+a {
+	text-decoration: none;
+}
+
+/* reset padding and margin */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: red;
+	color: white;
+	position: relative;
+
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 22px;
+
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+/* all the screens have the class screen */
+
+.screen {
+	/* make this equal to the size of the window */
+	width: 100vw;
+	height: 100vh;
+
+	/* position this on top of screen1 */
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+
+/* loading screen */
+
+#loading {
+	background-image: url(../flashpage.jpg);
+	background-size:cover;
+	background-position: center;
+
+	/* make sure this is on the very top */
+	z-index: 1000;
+
+	/* make sure you can't click on it */
+	pointer-events: none;
+
+	/* call the fade out animation */
+	animation: fadeOut 2s 1;
+	opacity: 0;
+}
+
+/* animation to fade out page */
+@keyframes fadeOut {
+	0%   { opacity: 1; }
+	50% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+/* time screen */
+
+#time {
+	background-image: url(../main2.jpg);
+	background-size:cover;
+	background-position: center;
+	color: white;
+	z-index: 10;	
+}
+
+/* you can style these links */
+#union-link{
+	margin-top:105px;
+	cursor: pointer;
+}
+
+#pier-link {
+	margin-top: 190px;
+	cursor: pointer;
+}
+
+#goldengate-link {
+	margin-top: 185px;
+	cursor: pointer;
+}
+/* union screen */
+
+#union {
+	background: yellow;
+	color: white;
+
+	/* hide the element by default */
+	opacity: 0;
+
+	/* prevent clicking while hidden */
+	pointer-events: none;
+    
+	/* position background image */
+    background: url(../union.jpg);
+    background-size: cover;
+    background-position: center;
+
+	z-index: 100; 
+
+}
+
+
+/* pier screen */
+
+#pier {
+	background: url(../fisher.jpg);
+    background-size: cover;
+    background-position: center;
+
+	/* hide the element by default */
+	opacity: 0;
+
+	/* prevent clicking while hidden */
+	pointer-events: none;
+
+	z-index: 100;
+}
+
+/* goldengate screen */
+
+#goldengate {
+	background: url(../golden.jpg);
+    background-size: cover;
+    background-position: center;	
+
+	/* hide the element by default */
+	opacity: 0;
+
+	/* prevent clicking while hidden */
+	pointer-events: none;
+
+	z-index: 100;
+}
+
+/* launch screen */
+
+#launch-screen {
+	background-image: url(../timemain.jpg);
+	background-size:cover;
+	background-position: center;
+	/* hide the element by default */
+	opacity: 0;
+	/* prevent clicking while hidden */
+	pointer-events: none;
+
+	z-index: 100;
+
+}
+
+/* hiding and showing screens */
+
+/* add this class to body on shake */
+body.show-launch #launch-screen {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+
+
+/* add this class to body on shake */
+body.show-union #union {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+/* add this class to body on shake */
+body.show-pier #pier {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+/* add this class to body on shake */
+body.show-goldengate #goldengate {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
