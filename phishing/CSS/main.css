@@ -1,0 +1,568 @@
+/*a {
+	text-decoration: none;
+}*/
+
+ body {
+	background: black;
+	color: black;
+	position: relative;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 22px;
+
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+#secondbody {
+	 background-color: #000;
+     text-shadow: 0 0 10px #FFC125;
+}
+
+.screen {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+
+ /*#firstpage {
+	background-image: url(../img/phishing1.jpg);
+	background-size:cover;
+	background-position: center;
+	color: white;
+	z-index: 2;	
+}*/
+
+#alpha {
+	font-size:18px;
+	color: black;
+	top:45px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	position:relative;
+	z-index: 10;
+	transition: all 1000ms ease-in;
+}
+
+#imageicon {
+	width:10px;
+	height:auto;
+	top:10px;
+	left:700px;
+	position:relative;
+}
+
+#email {
+	background-image: url(../img/email.jpg);
+    background-color: black;
+    background-size: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;	
+	opacity: 0; 
+	pointer-events: none;
+	z-index: 20;
+
+	transition: all 500ms ease;	
+}
+
+#final.zoom{
+	transform: scale(5);
+}
+
+
+#email-link{
+	margin-top:-100px;
+	cursor: pointer;
+}
+
+#textemail {
+	font-size:10px;
+	color: red;
+	position: relative;
+	top: 462px;
+	left: -280px;
+}
+
+body.show-email #email {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+#finalfinal {
+	color:black;
+	background-color:transparent;
+	background-color: rgba(256,256,256, 0.8);
+	z-index:100;
+	opacity: 0;
+	pointer-events: none;
+   }
+
+#finalfinal-1 {
+	color:black;
+	background-color:transparent;
+	background-color: rgba(256,256,256, 0.8);
+	z-index:100;
+	opacity: 0;
+	pointer-events: none;
+   }
+
+#finalfinal-2 {
+	color:black;
+	background-color:transparent;
+	background-color: rgba(256,256,256, 0.8);
+	z-index:100;
+	opacity: 0;
+	pointer-events: none;
+   }
+
+  #finalfinal-3 {
+	color:black;
+	background-color:transparent;
+	background-color: rgba(256,256,256, 0.8);
+	z-index:100;
+	opacity: 0;
+	pointer-events: none;
+   }
+
+  #finalfinal-4 {
+	color:black;
+	background-color:transparent;
+	background-color: rgba(256,256,256, 0.8);
+	z-index:100;
+	opacity: 0;
+	pointer-events: none;
+   }
+
+
+#finalscreen-1 {
+	font-size:2px;
+	color: white;
+	top:5px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	position:relative;
+	z-index: 10;
+	transition: all 1000ms ease-in;
+	opacity: 0;
+}
+
+.finalfinaltext {
+	color:black;
+	position: absolute;
+	height:200px;
+	width: 600px;
+	top: 50%;
+	left: 40%;
+
+	margin-left: -150px;
+	margin-top: -100px;
+}
+
+.finalfinaltext1 {
+	color:black;
+	position: absolute;
+	height:200px;
+	width: 600px;
+	top: 40%;
+	left: 40%;
+
+	margin-left: -150px;
+	margin-top: -100px;
+}
+
+/*.nextpage {
+	color:white;
+	position: absolute;
+	height:200px;
+	width: 600px;
+	top: 40%;
+	left: 40%;
+
+	margin-left: -150px;
+	margin-top: -100px;
+}
+*/
+
+
+.modal-link{
+	position:absolute;
+	cursor: pointer;
+	color:black;
+	opacity: 0;
+	font-size:1.8px;
+	z-index: 10000000;
+
+}
+
+.continue-link{
+	position:absolute;
+	cursor: pointer;
+	color:purple;
+	opacity: 0;
+	font-size:1.8px;
+	z-index: 10000000;
+
+}
+
+#finalfinal-link{
+	top:48.3vh;
+	left:45.12vw;
+}
+
+
+#finalfinal-link-1{
+	top:49.3vh;
+	left:46.14vw;
+}
+
+#finalfinal-link-2{
+	top:46.12vh;
+	left:45vw;
+}
+
+#finalfinal-link-3{
+	top:50.66vh;
+	left:47.2vw;
+}
+
+#finalfinal-link-4{
+	top:51.1vh;
+	left:45.13vw;
+}
+#finalfinal-link-5{
+	top:58vh;
+	left:49.2vw;
+}
+#finalfinal-reverse {
+	color:red;
+	float:right;
+	margin:10px;
+}
+
+#finalfinal-reverse-1 {
+	color:red;
+	float:right;
+	margin:10px;
+}
+
+#finalfinal-reverse-2 {
+	color:red;
+	float:right;
+	margin:10px;
+}
+
+#finalfinal-reverse-3 {
+	color:red;
+	float:right;
+	margin:10px;
+}
+
+#finalfinal-reverse-4 {
+	color:red;
+	float:right;
+	margin:10px;
+}
+
+#finalfinal-link:hover{
+	color:red;
+}
+#finalfinal-link-1:hover{
+	color:red;
+}
+#finalfinal-link-2:hover{
+	color:red;
+}
+#finalfinal-link-3:hover{
+	color:red;
+}
+#finalfinal-link-4:hover{
+	color:red;
+}
+#finalfinal-link-5:hover{
+	color:blue;
+}
+body.show-final #final.zoom #finalfinal-link {
+opacity: 1;
+}
+
+body.show-final #final.zoom #finalfinal-link-1 {
+opacity: 1;
+}
+
+body.show-final #final.zoom #finalfinal-link-2 {
+opacity: 1;
+}
+
+body.show-final #final.zoom #finalfinal-link-3 {
+opacity: 1;
+}
+
+body.show-final #final.zoom #finalfinal-link-4 {
+opacity: 1;
+}
+body.show-final #final.zoom #finalfinal-link-5 {
+opacity: 1;
+}
+body.show-final #final.zoom #finalscreen-1 {
+opacity: 1;
+}
+
+
+body.show-finalfinal #finalfinal {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+body.show-finalfinal-1 #finalfinal-1 {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+body.show-finalfinal-2 #finalfinal-2 {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+body.show-finalfinal-3 #finalfinal-3 {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+body.show-finalfinal-4 #finalfinal-4 {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+
+
+
+#final {
+/*height: 100vh; width: 100vw;
+*/	
+	background-image: url(../img/email2.jpg);
+    background-color: black;
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;	
+	opacity: 0;
+	z-index: 30;
+	color:white;
+	position: absolute;
+	pointer-events: none;
+	transition: all 800ms ease-out;
+
+	top:0px;
+	left:0px;
+	height: 100vh;
+	width: 100vw;
+}
+
+#finaltext {
+	font-size:18px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top:50px;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	text-shadow: 0 0 10px #FFFF00;
+	top:-10px;
+}
+
+h4 {
+	font-size:14px;
+	text-align: center;
+	position: relative;
+
+
+}
+
+
+#final-link{
+	margin-top:90px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+body.show-final #final {
+	/* show the element */
+	opacity: 1;
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+
+
+#last {
+	background-image: url(../img/.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;	
+	opacity: 0;
+	pointer-events: none;
+	z-index: 40;
+
+	transition: all 500ms ease;	
+}
+
+#last-link{
+	margin-top:90px;
+	cursor: pointer;
+}
+
+body.show-last #last {
+	/* show the element */
+	opacity: 1;
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+.drag { 
+	text-align: center;
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	background: pink;
+	position: absolute;
+}
+
+.drag img {
+	width: 40%;
+	height: auto;
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 22px/normal 'Anton', sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 1 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bez
+}
+
+#loading {
+	background-image: url(../img/cyber.gif);
+	background-repeat: no-repeat;	
+	background-position: center;
+	z-index: 1000;
+	pointer-events: none;
+	animation: fadeOut 2.5s 1;
+	opacity: 0;
+
+}
+
+@keyframes fadeOut {
+	0%   { opacity: 1; }
+	50% { opacity: 1; }
+	75% {opacity: 1;}
+	100% { opacity: 0; }
+}
+
+
+@keyframes blinker {  
+  60% { opacity: 0; }
+}
+
+
+.blink_me:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+body.show-launch #alpha {
+
+	/* show the element */
+	opacity: 1;
+
+	/* enable clicking while visible */
+	pointer-events: all;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

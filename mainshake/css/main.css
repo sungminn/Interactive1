@@ -98,7 +98,7 @@ body {
     
 	/* position background image */
     background: url(../inside1.jpg);
-    background-size: cover;
+    background-size: 100vh,100vw;
     background-position: center;
 
 	z-index: 100; 

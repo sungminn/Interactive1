@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+  text-align: center;
+
+}
+
+h1 {
+	top:350px;
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+left:380px;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
